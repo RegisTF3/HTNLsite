@@ -1,0 +1,25 @@
+ul{
+    list-style: none;
+}
+li{
+    float: left;
+    margin-left: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    margin-top: 20px;
+}
+#logo{
+    width: 100px;
+    height: 100px;
+}
+#header{
+    display: flex;
+    flex-direction: row;
+    background-color:  #0b1d27;
+    color: #ba7a3d;
+}
+#footer{
+    background-color:  #0b1d27;
+    color: #ba7a3d;
+    height: 50px;
+}
