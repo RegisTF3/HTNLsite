@@ -17,9 +17,42 @@ li{
     flex-direction: row;
     background-color:  #0b1d27;
     color: #ba7a3d;
+   
 }
 #footer{
     background-color:  #0b1d27;
     color: #ba7a3d;
     height: 50px;
+    bottom: 0;
+}
+#cent{
+    align-items: center;
+    background-color: #0b1d27;
+    height: 100%;
+    width: 100%;
+    margin-left: 0;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+    
+}
+#Sect{
+  height: 100%;
+  width: 70%;
+  background-color: #ba7a3d;
+  margin-left: 15%;
+  margin-right: 30%;
+}
+body { 
+    background-color: #ba7a3d;
+    height: 100%;
+}
+
+.imge{
+    height: 200px;
+    width: 150px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 5px;
 }
