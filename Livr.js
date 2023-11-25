@@ -32,6 +32,17 @@ Livross [28] = "image/livro26.png";
 Livross [29] = "image/livro27.png";
 Livross [30] = "image/livro28.png";
 Livross [31] = "image/livro29.png";*/
+let txtNome = document.getElementById("nome");
+let txtCpf = document.getElementById("cpf");
+txtCpf.addEventListener('keyup',formatarCPF);
+let txtEmail = document.getElementById("email");
+txtEmail.addEventListener('keyup',formatarEmail);
+let txtFone = document.getElementById("fone");
+txtFone.addEventListener('keyup',formatarTelefone);
+let txtCep = document.getElementById("cep");
+txtCep.addEventListener('keyup',formatarCep);
+let btEnviar = document.getElementById("botEnviar");
+botEnviar.addEventListener("click",verificar);
 
 
 const btDir = document.getElementById('direita');
@@ -97,3 +108,56 @@ function proximaImagen () {
     l15.src="image/livro11.png";
     l16.src="image/livro12.png";
    }
+
+
+
+
+
+function formatarCPF(e){
+   var v=e.target.value.replace(/\D/g,"");
+   v=v.replace(/(\d{3})(\d)/,"$1.$2");
+   v=v.replace(/(\d{3})(\d)/,"$1.$2");
+   v=v.replace(/(\d{3})(\d{1,2})$/,"$1-$2");
+   e.target.value = v;
+}
+
+function formatarTelefone(e){
+   var v=e.target.value.replace(/\D/g,"");
+   v=v.replace(/^(\d\d)(\d)/g,"($1)$2"); 
+   v=v.replace(/(\d{5})(\d)/,"$1-$2");    
+   e.target.value = v;
+}
+function formatarCep(e){
+   var v= e.target.value.replace(/\D/g,"")                
+   v=v.replace(/^(\d{5})(\d)/,"$1-$2") 
+   e.target.value = v;
+}
+function formatarEmail (e){
+   var txtEmail = e.target.value;
+   var RegExp = /([a-z0-9\.\-]){2,}@([a-z0-9]{2,})(\.[a-z]{2,})(\.[a-z]{2,})?/gi;
+
+   if(txtEmail.match(RegEXp) != null){
+       alert('Email Válido');
+   }
+   else{
+       alert('Email Inválido');
+
+       e.target.value = "";
+   }
+}
+function verificar()
+{
+
+    if(txtNome.value==""||txtCpf.value==""||txtEmail.value==""||txtFone.value==""||txtCep.value==""){
+        alert("Favor preencher todos os campos!!!!")
+        
+    }
+    else{
+        if(verificarEmail()){
+            alert("Dados enviados com sucesso!!!!")
+        }
+        
+        
+    }
+    
+}

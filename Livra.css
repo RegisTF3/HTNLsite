@@ -158,3 +158,57 @@ body {
     right: 11%;
     font-size: 50px;
    }
+   #pr{
+    font-size: 30px;
+    color: #ba7a3d;
+    position: absolute;
+    top: 120%;
+    left: 72%;
+   }
+   #end{
+    font-size: 30px;
+    color: #ba7a3d;
+    position: absolute;
+    top: 190%;
+    left: 72%;
+   }
+   #cen{
+    height: 100%;
+    width: 100%;
+    background-color: #0b1d27;
+    border-color: #0b1d27;
+    border-style: solid;
+    border-radius: 5px;
+    color: #030a0e;
+    background-size: 100%;
+    background-image:url(image/livrousu.png);
+   }
+   .usu{
+    position: absolute;
+    top: 20%;
+    left: 2%;
+   }
+   #leitor{
+    position: absolute;
+    top: 20%;
+    left: 10%;
+   }
+   #dados{
+    position: absolute;
+    top: 40%;
+    left: 5%;
+   }
+   #da{
+    position: absolute;
+    top: 100%;
+    font-size: 30px;
+    left: 5%;
+   }
+   #botEnviar{
+    color: #0b1d27;
+    background-color: #ba7a3d;
+    margin-left: 5px;
+    position: absolute;
+    top: 99%;
+    left:4% ;
+   }
