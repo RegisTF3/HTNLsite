@@ -1,5 +1,6 @@
 ul{
     list-style: none;
+    color: #ba7a3d;
 }
 li{
     float: left;
@@ -7,6 +8,9 @@ li{
     font-family: 'Times New Roman', Times, serif;
     font-size: 20px;
     margin-top: 20px;
+}
+li a{
+    color: #ba7a3d;
 }
 #logo{
     width: 100px;
@@ -65,4 +69,92 @@ body {
     flex-direction: column;
     overflow: auto;
 }
+#logo2{
+    height: 700px;
+    width: 700px;
+}
+#centro{
+    display:flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content:space-between;
+    margin:0;
+    background-color: #0b1d27;
+    border: #ba7a3d;
+    border-style: solid;
+}
 
+#dirt{
+    font-family: 'Times New Roman', Times, serif;
+    color: #ba7a3d;
+    display: flex;
+    flex: row;
+    align-items: center;
+}
+#titu{
+    position: absolute;
+    top: 20%;
+    right: 60%;
+    left: 50%;
+    font-size: 30px;
+}
+.impg2{
+    height: 200px;
+    width: 150px;
+    margin-right: 5px;
+  
+   }
+   #titur{
+    position: absolute;
+    top: 55%;
+    right: 43%;
+    font-size: 30px;
+
+   }
+   #b1{
+    position: absolute;
+    left: 50%;
+    top: 30%;
+
+   }
+   #b2{
+    position: absolute;
+    left: 61%;
+    top: 30%;
+   }
+   #b3{
+    position: absolute;
+    left: 72%;
+    top: 30%;
+   }
+   #b4{
+    position: absolute;
+    top: 30%;
+    left: 83%;
+   }
+   #b5{
+    position: absolute;
+    top: 65%;
+    left: 50%;
+   }
+   #b6{
+    position: absolute;
+    top: 65%;
+    left: 61%;
+   }
+   #b7{
+    position: absolute;
+    top: 65%;
+    left: 72%;
+   }
+   #b8{
+    position: absolute;
+    top: 65%;
+    left: 83%;
+   }
+   #titul{
+    position: absolute;
+    top: 95%;
+    right: 11%;
+    font-size: 50px;
+   }
