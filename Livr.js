@@ -32,22 +32,11 @@ Livross [28] = "image/livro26.png";
 Livross [29] = "image/livro27.png";
 Livross [30] = "image/livro28.png";
 Livross [31] = "image/livro29.png";*/
-let txtNome = document.getElementById("nome");
-let txtCpf = document.getElementById("cpf");
-txtCpf.addEventListener('keyup',formatarCPF);
-let txtEmail = document.getElementById("email");
-txtEmail.addEventListener('keyup',formatarEmail);
-let txtFone = document.getElementById("fone");
-txtFone.addEventListener('keyup',formatarTelefone);
-let txtCep = document.getElementById("cep");
-txtCep.addEventListener('keyup',formatarCep);
-let btEnviar = document.getElementById("botEnviar");
-botEnviar.addEventListener("click",verificar);
 
 
-const btDir = document.getElementById('direita');
+const btDir = document.getElementById("direita");
 btDir.addEventListener("click",proximaImagen);
-const btEsq = document.getElementById('esquerdo');
+const btEsq = document.getElementById("esquerdo");
 btEsq.addEventListener("click",voltarImagem);
 const l1 = document.getElementById('l1');
 const l2 = document.getElementById('l2');
@@ -111,7 +100,17 @@ function proximaImagen () {
 
 
 
-
+   let txtNome = document.getElementById("nome");
+   let txtCpf = document.getElementById("cpf");
+   txtCpf.addEventListener('keyup',formatarCPF);
+   let txtEmail = document.getElementById("email");
+   txtEmail.addEventListener('keyup',formatarEmail);
+   let txtFone = document.getElementById("fone");
+   txtFone.addEventListener('keyup',formatarTelefone);
+   let txtCep = document.getElementById("cep");
+   txtCep.addEventListener('keyup',formatarCep);
+   let botEnviar = document.getElementById("botEnviar");
+   botEnviar.addEventListener("click",verificar);
 
 function formatarCPF(e){
    var v=e.target.value.replace(/\D/g,"");
