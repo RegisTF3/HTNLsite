@@ -52,7 +52,7 @@ li a :hover{
     flex-direction: row;
     background-color:  #0b1d27;
     color: #ba7a3d;
-    height: 15%;
+    height: 10%;
      width: 100%;
    
     
@@ -121,7 +121,9 @@ body {
 }
 #imagen div img:hover{
     transform:scale(1.1);
+
 }
+/*LivrosPG2*/
 #logo2{
     height: 800px;
     width: 700px;
@@ -129,11 +131,10 @@ body {
     margin-left: 30px;
 }
 #centro{
-    display:flex;
-    flex-direction: row;
-    align-items:center;
-    justify-content:space-between;
-    height: 85%;
+    
+    height: 900px;
+    width: 100%;
+    box-shadow: 0 9px 20px;
     margin:0;
     background-color: #0b1d27;
     border:#073a58;
@@ -142,16 +143,28 @@ body {
     margin-top: 10%;
     margin-left: 0;
     overflow: hidden;
+    display:flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content:space-between;
 }
-
+#esq{
+    margin:0;
+    width:50%;
+    height:900px;
+}
 #dirt{
     font-family: 'Times New Roman', Times, serif;
     color: #ba7a3d;
-    display: flex;
-    flex: row;
-    align-items: center;
-    overflow: auto;
-    padding: 20px;
+    padding-top: 0;
+    padding-right:180px;
+    display:flex;
+    flex-direction: column;
+    align-items:flex-start;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    margin:0;
+    height:900px;
     
 }
 #dirt  .impg2{
@@ -160,14 +173,14 @@ body {
 #dirt .impg2:hover{
     transform: scale(1.1);
 }
-#titu{
-    position: absolute;
-    top: 20%;
-    right: 60%;
-    left: 40%;
-    font-size: 30px;
-    border: black;
-    border-style: solid;
+.colo{
+    display: flex;
+    flex-direction: column;
+
+}
+.liv{
+    display: flex;
+    flex-direction: row;
 }
 .impg2{
     height: 200px;
@@ -176,27 +189,52 @@ body {
     margin-right: 5px;
   
    }
-   #titur{
-    position: absolute;
-    top: 55%;
-    right: 60%;
-    left: 40%;
-    font-size: 30px;
-    margin-left: 5px;
-    border: black;
-    border-style:solid ;
-
+  
+   #topo{
+    margin-bottom: 100px;
+    margin-right: 290px;
+    font-size: 35px;
+    margin-top: 0;
    }
+   #baixa{
+    margin-right: 290px;
+    font-size: 35px;
+    margin-bottom: 90px;
+   }
+   #titul{
+    font-size: 45px;
+    color: #ba7a3d;
+    
+   }
+   #nov{
+
+    height: 900px;
+    width: 100%;
+    box-shadow: 0 9px 20px;
+    margin:0;
+    background-color: #0b1d27;
+    border:#073a58;
+    border-style: solid;
+    border-radius: 5%;
+    margin-top: 10%;
+    margin-left: 0;
+    overflow: hidden;
+    display:flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content:space-between;
+    margin-bottom: 5%;
+   }
+  
+  
+  
+  /* PG3 area usuario*/
+  
    #ima{
     border: black;
     border-style: solid;
    }
-   #titul{
-    position: absolute;
-    top: 95%;
-    right: 11%;
-    font-size: 50px;
-   }
+  
    #pr{
     font-size: 30px;
     color:  #ba7a3d;    
@@ -281,3 +319,4 @@ body {
     border: 2px solid #ba7a3d;
     border-radius: 10%;
    }
+  
