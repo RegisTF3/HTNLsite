@@ -208,7 +208,7 @@ body {
    }
    #nov{
 
-    height: 900px;
+    height: 800px;
     width: 100%;
     box-shadow: 0 9px 20px;
     margin:0;
@@ -225,7 +225,27 @@ body {
     justify-content:space-between;
     margin-bottom: 5%;
    }
-  
+  #fret{
+    height: 900px;
+    width: 1024px;
+   padding-left: 10px;
+    border-radius: 5%;
+
+    
+
+  }
+  #frente{
+    border-radius: 5%;
+    padding-left: 10px;
+    padding-top: 10px;
+    margin-top: 5%;
+  }
+  #pr ,  #end {
+    font-size: 30px;
+    color:  #ba7a3d;    
+    padding-left: 20px;
+   }
+
   
   
   /* PG3 area usuario*/
@@ -235,20 +255,7 @@ body {
     border-style: solid;
    }
   
-   #pr{
-    font-size: 30px;
-    color:  #ba7a3d;    
-    position: absolute;
-    top: 120%;
-    left: 62%;
-   }
-   #end{
-    font-size: 30px;
-    color: #ba7a3d;
-    position: absolute;
-    top: 160%;
-    left: 62%;
-   }
+   
    #cen{
     height: 100%;
     width: 100%;
