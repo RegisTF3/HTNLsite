@@ -187,6 +187,7 @@ body {
     width: 150px;
     border-radius: 5%;
     margin-right: 5px;
+    margin-left: 10px;
   
    }
   
@@ -200,6 +201,7 @@ body {
     margin-right: 290px;
     font-size: 35px;
     margin-bottom: 90px;
+
    }
    #titul{
     font-size: 45px;
@@ -244,6 +246,7 @@ body {
     font-size: 30px;
     color:  #ba7a3d;    
     padding-left: 20px;
+    margin-left: 25px;
    }
 
   
