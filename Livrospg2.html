@@ -3,10 +3,12 @@
     <meta charset='utf-8'>
         <title>Livros</title>
         <link rel='stylesheet' type='text/css'  href='Livra.css'>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 </head>
-<body>
-<header id="header">
+<body class="body">
+<header class="header">
 <img src="image/LogoL.jpg" id="logo">
+<div class="heada">
 <nav>
     <ul>
         <li><a href="Livros.html">Pagina principal</a></li>
@@ -15,46 +17,48 @@
         <li><a href="Ranking.html">A decidir</a></li>
     </ul>    
 </nav>
+<button id="Dmode"><img src="image/lua.png" id="dark"></button>
+</div>
 </header>
-<div id="centro">
-<div id="esque">
+<div class="centro">
+<div class="esque">
     <img src="image/logo2.png" id="logo2">
 </div>
-<div id="dirt" class="colo">
-    <div  class="colo" id="topo">
+<div class="dirt" id="colo">
+    <div  id="colo" class="topo">
         <div>
-        <p id="titu"> Ficção</p>
+        <p class="titu"> Ficção</p>
     </div>
-        <div class="liv" id="livtop">
+        <div id="liv" class="livtop">
             <img src="image/livro14.png" id="b1" class="impg2">
             <img src="image/livro15.png" id="b2" class="impg2">
             <img src="image/livro28.png" id="b3" class="impg2">
             <img src="image/livro29.png" id="b4" class="impg2">
        </div>
     </div>
-        <div class="colo" id="baixa">
+        <div id="colo" class="baixa">
             <div>
-            <p id="titur"> Mistério </p>
+            <p class="titur"> Mistério </p>
         </div>
-        <div class="liv" id="livbaixo">
+        <div id="liv" class="livbaixo">
             <img src="image/livro20.png" id="b5" class="impg2">
              <img src="image/livro18.png" id="b6" class="impg2">
              <img src="image/livro27.png" id="b7" class="impg2">
              <img src="image/livro23.png" id="b8" class="impg2">
            </div>
         </div>
-       <p id="titul">conheça Nossos livros </p>
+       <p class="titul">conheça Nossos livros </p>
        </div>
 </div>
     
 
 
-<div id="nov">
-    <div id="fret">
+<div class="nov">
+    <div class="fret">
     <img src="image/Frente.png" id="Frente">
 </div>
 <div>
-    <p id="pr"> Venha a nossa loja <br> <br>
+    <p class="pr"> Venha a nossa loja <br> <br>
         para conseguir uma variedade<br> 
          maior de livros e conhecimento <br>
          com promoções incrivel e um local 
@@ -63,7 +67,7 @@
          Horario de Funcionamento: de segunda a sabádo das 
          8hs as 22h 
     </p>
-    <p id="end">
+    <p class="end">
         <br>
         Endereço : Av. Assis Brasil, 2611 - Cristo Redentor,
          Porto Alegre - RS, 91010-004
@@ -71,8 +75,9 @@
     </p>
 </div>
 </div>
-<footer id="footer"> 
+<footer class="footer"> 
   <p> Atendimento </p>
 </footer>
+<script src="Livr.js"></script>
 </body>
 </html>

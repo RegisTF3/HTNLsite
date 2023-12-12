@@ -4,6 +4,7 @@ html{
 ul{
     list-style: none;
     color: #ba7a3d;
+    padding-left: 110px;
     
     
     
@@ -31,7 +32,7 @@ li a :hover{
     margin-left: 0;
    
 }
-#header{
+.header{
     display: flex;
     flex-direction: column;
     background-color:  #0b1d27;
@@ -46,7 +47,7 @@ li a :hover{
   z-index: 5;
    
 }
-#footer{
+.footer{
     flex-shrink: 0;
     display: flex;
     flex-direction: row;
@@ -57,12 +58,12 @@ li a :hover{
    
     
 }
-#pp{
+.pp{
     font-size: 20px;
     display: flex;
     flex-direction: row;
 }
-#cent{
+.cent{
     display: flex;
     flex-direction: row;
     height: 100%;
@@ -71,7 +72,7 @@ li a :hover{
     align-items: center;
     
 }
-#Sect{
+.Sect{
   height: 100vh;
   width: 70%;
   border-radius: 5%;
@@ -84,7 +85,7 @@ li a :hover{
   flex-direction: row;
   
 }
-body { 
+.body { 
     background-color: #ba7a3d;
     min-height: 100vh;
     margin: 0;
@@ -130,7 +131,7 @@ body {
     border-radius: 5%;
     margin-left: 30px;
 }
-#centro{
+.centro{
     
     height: 900px;
     width: 100%;
@@ -148,12 +149,12 @@ body {
     align-items:center;
     justify-content:space-between;
 }
-#esq{
+.esq{
     margin:0;
     width:50%;
     height:900px;
 }
-#dirt{
+.dirt{
     font-family: 'Times New Roman', Times, serif;
     color: #ba7a3d;
     padding-top: 0;
@@ -167,18 +168,18 @@ body {
     height:900px;
     
 }
-#dirt  .impg2{
+.dirt  .impg2{
     transition: transform 0.3s ease-in-out;
 }
-#dirt .impg2:hover{
+.dirt .impg2:hover{
     transform: scale(1.1);
 }
-.colo{
+#colo{
     display: flex;
     flex-direction: column;
 
 }
-.liv{
+#liv{
     display: flex;
     flex-direction: row;
 }
@@ -191,24 +192,24 @@ body {
   
    }
   
-   #topo{
+   .topo{
     margin-bottom: 100px;
     margin-right: 290px;
     font-size: 35px;
     margin-top: 0;
    }
-   #baixa{
+   .baixa{
     margin-right: 290px;
     font-size: 35px;
     margin-bottom: 90px;
 
    }
-   #titul{
+   .titul{
     font-size: 45px;
     color: #ba7a3d;
     
    }
-   #nov{
+   .nov{
 
     height: 800px;
     width: 100%;
@@ -227,7 +228,7 @@ body {
     justify-content:space-between;
     margin-bottom: 5%;
    }
-  #fret{
+  .fret{
     height: 900px;
     width: 1024px;
    padding-left: 10px;
@@ -236,13 +237,13 @@ body {
     
 
   }
-  #frente{
+  .frente{
     border-radius: 5%;
     padding-left: 10px;
     padding-top: 10px;
     margin-top: 5%;
   }
-  #pr ,  #end {
+  .pr ,  .end {
     font-size: 30px;
     color:  #ba7a3d;    
     padding-left: 20px;
@@ -330,3 +331,30 @@ body {
     border-radius: 10%;
    }
   
+
+   /* Jquery michael mode*/
+   #dark{
+    width: 50px;
+    height: 50px;
+    
+
+   }
+   .heada{
+    display: flex;
+    flex-direction: row;
+   }
+   .darkmo{
+    background-color: #ba7a3d;
+    color: #0b1d27;
+   }
+   .darkbody{
+    background-color: #0b1d27;
+   }
+   
+   #Dmode{
+    width: 50px;
+    height: 50px;
+    margin-left: 100px;
+    background-color: #0b1d27;
+    
+   }
