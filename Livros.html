@@ -4,24 +4,28 @@
     <meta charset='utf-8'>
         <title>Pagina Inicial</title>
         <link rel='stylesheet' type='text/css'  href='Livra.css'>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 </head>
-<body>
-<header id="header">
-    <img src="image/LogoL.jpg" id="logo">
-<nav>
-    <ul>
-        <li><a href="Livros.html">Pagina principal</a> </li>
-        <li><a href="Livrospg2.html">Livros</a></li>
-        <li><a href="AreaUsuario.html">Area do Usuario</a></li>
-        <li><a href="Ranking.html">A decidir</a></li>
-    </ul>    
-</nav>
-</header>
+<body class="body">
+    <header class="header">
+        <img src="image/LogoL.jpg" id="logo">
+        <div class="heada">
+        <nav>
+            <ul>
+                <li><a href="Livros.html">Pagina principal</a></li>
+                <li><a href="Livrospg2.html"> Livros </a></li>
+                <li><a href="AreaUsuario.html">Area do Usuario</a></li>
+                <li><a href="Ranking.html">A decidir</a></li>
+            </ul>    
+        </nav>
+        <button id="Dmode"><img src="image/lua.png" id="dark"></button>
+        </div>
+        </header>
 
-<section id="Sect">
-    <div id="cent">
-         <div id="imagen">
-            <h1 id="d"> Livros em Destaques</h1>
+<section class="Sect">
+    <div class="cent">
+         <div class="imagen">
+            <h1 class="d"> Livros em Destaques</h1>
             <button id="esquerdo"> < anterior </button>
         <div >
              <img src="image/liv1.png" id="l1" class="imge">
@@ -53,9 +57,10 @@
         </div>
     </div>
 </section>
-<footer id="footer"> 
-  <p id="pp"> Atendimento <br> Contate-nos <br> Perguntas <br>Foruns </p>
+<footer class="footer"> 
+  <p class="pp"> Atendimento <br> Contate-nos <br> Perguntas <br>Foruns </p>
 </footer>
 <script src="Livr.js"></script>
+ <script src="darkjq.js"></script>
 </body>
 </html>

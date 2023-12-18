@@ -1,14 +1,3 @@
-var modo =0;
-$(document).ready(function(){
-   
-    $("#Dmode").on('click', function(){
-        $('body').toggleClass("darkbody")
-        $('header,section,div,p,footer,li a , bottom').toggleClass("darkmo")
-            
-        
-    })
-
-
 const btDir = document.getElementById("direita");
 btDir.addEventListener("click",proximaImagen);
 const btEsq = document.getElementById("esquerdo");
@@ -30,7 +19,7 @@ const l14 = document.getElementById('l14');
 const l15 = document.getElementById('l15');
 const l16 = document.getElementById('l16');
 
-function proximaImagen () {
+function proximaImagen() {
    l1.src="image/livro14.png";
    l2.src="image/livro15.png";
    l3.src="image/livro16.png";
@@ -51,7 +40,7 @@ function proximaImagen () {
    l15.src="image/livro28.png";
    l16.src="image/livro29.png";
    }
-   function voltarImagem (){
+   function voltarImagem(){
     l1.src="image/liv1.png";
     l2.src="image/liv2.png";
     l3.src="image/liv3.png";
@@ -74,67 +63,4 @@ function proximaImagen () {
    }
 
 
-
-   let txtNome = document.getElementById("nome");
-   let txtCpf = document.getElementById("cpf");
-   txtCpf.addEventListener('keyup',formatarCPF);
-   let txtEmail = document.getElementById("email");
-   txtEmail.addEventListener('keyup',formatarEmail);
-   let txtFone = document.getElementById("fone");
-   txtFone.addEventListener('keyup',formatarTelefone);
-   let txtCep = document.getElementById("cep");
-   txtCep.addEventListener('keyup',formatarCep);
-   let botEnviar = document.getElementById("botEnviar");
-   botEnviar.addEventListener("click",verificar);
-
-function formatarCPF(e){
-   var v=e.target.value.replace(/\D/g,"");
-   v=v.replace(/(\d{3})(\d)/,"$1.$2");
-   v=v.replace(/(\d{3})(\d)/,"$1.$2");
-   v=v.replace(/(\d{3})(\d{1,2})$/,"$1-$2");
-   e.target.value = v;
-}
-
-function formatarTelefone(e){
-   var v=e.target.value.replace(/\D/g,"");
-   v=v.replace(/^(\d\d)(\d)/g,"($1)$2"); 
-   v=v.replace(/(\d{5})(\d)/,"$1-$2");    
-   e.target.value = v;
-}
-function formatarCep(e){
-   var v= e.target.value.replace(/\D/g,"")                
-   v=v.replace(/^(\d{5})(\d)/,"$1-$2") 
-   e.target.value = v;
-}
-function formatarEmail (e){
-   var txtEmail = e.target.value;
-   var RegExp = /([a-z0-9\.\-]){2,}@([a-z0-9]{2,})(\.[a-z]{2,})(\.[a-z]{2,})?/gi;
-
-   if(txtEmail.match(RegEXp) != null){
-       alert('Email Válido');
-   }
-   else{
-       alert('Email Inválido');
-
-       e.target.value = "";
-   }
-}
-function verificar()
-{
-
-    if(txtNome.value==""||txtCpf.value==""||txtEmail.value==""||txtFone.value==""||txtCep.value==""){
-        alert("Favor preencher todos os campos!!!!")
-        
-    }
-    else{
-        if(verificarEmail()){
-            alert("Dados enviados com sucesso!!!!")
-        }
-        
-        
-    }
-    
-}
-
-
-})
+  

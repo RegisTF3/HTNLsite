@@ -3,23 +3,29 @@
     <meta charset='utf-8'>
         <title>Area do Usuario</title>
         <link rel='stylesheet' type='text/css'  href='Livra.css'>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 </head>
-<body>
-<header id="header">
-<img src="image/LogoL.jpg" id="logo">
-<nav>
-    <ul>
-        <li><a href="Livros.html">Pagina principal</a></li>
-        <li><a href="Livrospg2.html">Livros</a></li>
-        <li><a href="AreaUsuario.html">Area do Usuario</a></li>
-        <li><a href="Ranking.html">A decidir</a></li>
-    </ul>    
-</nav>
-</header>
-<div id="cen">
+<body class="body">
+    <header class="header">
+        <img src="image/LogoL.jpg" id="logo">
+        <div class="heada">
+        <nav>
+            <ul>
+                <li><a href="Livros.html">Pagina principal</a></li>
+                <li><a href="Livrospg2.html"> Livros </a></li>
+                <li><a href="AreaUsuario.html">Area do Usuario</a></li>
+                <li><a href="Ranking.html">A decidir</a></li>
+            </ul>    
+        </nav>
+        <button id="Dmode"><img src="image/lua.png" id="dark"></button>
+        </div>
+        </header>
+<div class="cen">
+    <div class="are">
     <img src="image/Usuario.png" id="logo" class="usu">
     <h1 id="leitor"> Leitor 1</h1>
-    <div id="dados">
+</div>
+<p class="da">Informe seus dados</p>
     <p>Nome:</p>
     <input type="text" name="nome" id="nome">
     <p>CPF:</p>
@@ -30,18 +36,19 @@
     <input type="text" name="fone" id="fone" maxlength="14">
     <p>CEP:</p>
     <input type="text" name="CEP"  id="cep" maxlength="9">
-    
-    </div>
-    <input type="submit" value="Enviar" id="botEnviar">
-    <p id="da">Informe seus dados</p>
-
-    <div>
-    
+   
+    <input type="submit" value="Enviar" id="botEnviar" class="bt">
+    <div id="bck">
+        <p class="pp">aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+            aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+        </p>
     </div>
 </div>
-<footer id="footer"> 
-  <p> Atendimento </p>
+<footer class="footer"> 
+    <p class="pp"> Atendimento <br> Contate-nos <br> Perguntas <br>Foruns </p>
 </footer>
-<script src="Livr.js"></script>
+
+<script src="darkjq.js"></script>
+<script src="regex.js"></script>
 </body>
 </html>

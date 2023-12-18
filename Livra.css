@@ -53,15 +53,16 @@ li a :hover{
     flex-direction: row;
     background-color:  #0b1d27;
     color: #ba7a3d;
-    height: 10%;
+    height: 15%;
      width: 100%;
    
     
 }
 .pp{
-    font-size: 20px;
+    font-size: 25px;
     display: flex;
     flex-direction: row;
+    padding-left: 20px;
 }
 .cent{
     display: flex;
@@ -104,7 +105,7 @@ li a :hover{
     
 }
 
-#imagen{
+.imagen{
     align-items: center;
     background-color: #0b1d27;
     height: 100vh;
@@ -117,10 +118,10 @@ li a :hover{
     overflow: auto;
     
 }
-#imagen div img{
+.imagen div img{
     transition: transform 0.3s ease-in-out;
 }
-#imagen div img:hover{
+.imagen div img:hover{
     transform:scale(1.1);
 
 }
@@ -260,45 +261,54 @@ li a :hover{
    }
   
    
-   #cen{
-    height: 100%;
-    width: 100%;
-    background-color: #0b1d27;
-    border-color: #0b1d27;
-    border-style: solid;
-    border-radius: 5px;
-    color: #030a0e;
-    background-size: 100%;
-    background-image:url(image/livrousu.png);
+   .cen{
+     height: 800px;
+     width: 95%;
+     background-color:#0b1d27;
+     margin-left: 50px;
+     margin-top: 10%;
+     margin-bottom: 2%;
+     color: #ba7a3d;
+     padding-left: 50px;
+    padding-top: 30px; 
+     
+   
    }
-   .usu{
-    position: absolute;
-    top: 20%;
-    left: 2%;
+.usu{
+   margin-left: 5;
+   border: #073a58;
+   border-style: solid;
+   border-radius: 5%;
+   
    }
+   .are{
+    display: flex;
+    flex-direction: row;
+   }
+   
    #leitor{
-    position: absolute;
-    top: 20%;
-    left: 10%;
+    padding-left: 30px;
    }
+   /*
    #dados{
-    position: absolute;
-    top: 40%;
-    left: 5%;
+   */
+   
+   .da{
+   font-size: 35px;
    }
-   #da{
-    position: absolute;
-    top: 100%;
-    font-size: 30px;
-    left: 5%;
+   .bt{
+    background-color: #ba7a3d;
    }
    #botEnviar{
     color: #0b1d27;
     background-color: #ba7a3d;
     margin-left: 5px;
-    position: absolute;
-    top: 99%;
-    left:4% ;
+   
+   }
+   #bck{
+    background-image:url(image/livrousu.png);
+    height: 600px;
+    width: 30%;
    }
    #d{
     color: #ba7a3d;
