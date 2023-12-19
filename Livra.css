@@ -266,24 +266,46 @@ li a :hover{
      width: 95%;
      background-color:#0b1d27;
      margin-left: 50px;
+    
      margin-top: 10%;
      margin-bottom: 2%;
      color: #ba7a3d;
      padding-left: 50px;
     padding-top: 30px; 
-     
    
+    
    }
+#seulivr{
+    height: 400px;
+    
+    
+}
+.esta{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 800px;
+    width: 600px;
+    margin-left: 400px;
+    margin-bottom: 100%;
+    color:#ba7a3d;
+    
+}
+
 .usu{
    margin-left: 5;
    border: #073a58;
    border-style: solid;
    border-radius: 5%;
    
+   
    }
    .are{
     display: flex;
     flex-direction: row;
+    height: 100px;
+    width: 200px;
+    
    }
    
    #leitor{
@@ -305,11 +327,9 @@ li a :hover{
     margin-left: 5px;
    
    }
-   #bck{
-    background-image:url(image/livrousu.png);
-    height: 600px;
-    width: 30%;
-   }
+  
+
+   
    #d{
     color: #ba7a3d;
     font-size: 25px;
@@ -367,4 +387,14 @@ li a :hover{
     margin-left: 100px;
     background-color: #0b1d27;
     
+   }
+   /*pg4 raning*/
+   .cente{
+    height: 1000px;
+    width: 900px;
+    background-color: #0b1d27;
+    margin-left: 200px;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    color: #ba7a3d;
    }
